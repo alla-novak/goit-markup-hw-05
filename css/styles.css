@@ -688,9 +688,12 @@ line-height: 1.17;
 letter-spacing: 0.04em;
 }
 
-.checkbox:checked+.privacy-label>.label-span {
+.checkbox:checked+.privacy-policy-label .privacy-icon-span {
    background-color: #404bbf;
    border: none;
+}
+
+.checkbox:checked+.privacy-policy-label .privacy-icon-span svg {
    fill: #f4f4fd;
 }
 
