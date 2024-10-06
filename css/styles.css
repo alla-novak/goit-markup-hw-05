@@ -693,7 +693,7 @@ letter-spacing: 0.04em;
    border: none;
 }
 
-.checkbox:checked+.privacy-policy-label .privacy-icon-span svg {
+.checkbox:checked+.privacy-policy-label .privacy-icon-span {
    fill: #f4f4fd;
 }
 
